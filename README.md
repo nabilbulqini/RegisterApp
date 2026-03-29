@@ -13,4 +13,4 @@
 
 
 Link GitHub : https://github.com/nabilbulqini/RegisterApp
-Link Video  : https://drive.google.com/xxxx (link video demo kamu)
+Link Video  : https://drive.google.com/xxxx (https://drive.google.com/drive/folders/10UU8xf2wEtqXQpvznOcBmM5oJo-u4DIm?usp=sharing)
