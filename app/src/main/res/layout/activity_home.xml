@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#F0F8FF" android:gravity="center" android:padding="24dp">
+    <ImageView android:layout_width="120dp" android:layout_height="120dp" android:src="@android:drawable/ic_dialog_info" android:layout_marginBottom="24dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Seminar Registration App" android:textSize="24sp" android:textStyle="bold" android:textColor="#1A73E8" android:gravity="center" android:layout_marginBottom="8dp"/>
+    <TextView android:id="@+id/tvWelcome" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Selamat datang!" android:textSize="16sp" android:textColor="#5F6368" android:gravity="center" android:layout_marginBottom="48dp"/>
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="16dp" app:cardElevation="4dp" android:layout_marginBottom="24dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp" android:background="#FFFFFF">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Informasi" android:textSize="16sp" android:textStyle="bold" android:textColor="#1A73E8" android:layout_marginBottom="8dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Daftarkan diri Anda ke seminar yang tersedia. Lengkapi form pendaftaran dengan data yang valid dan benar." android:textSize="14sp" android:textColor="#333333" android:lineSpacingExtra="4dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.button.MaterialButton android:id="@+id/btnDaftarSeminar" android:layout_width="match_parent" android:layout_height="56dp" android:text="DAFTAR SEMINAR" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="16sp" app:backgroundTint="#1A73E8" app:cornerRadius="28dp"/>
+</LinearLayout>
